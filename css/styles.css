@@ -1,0 +1,749 @@
+/* Style sheet created by: Long Nguyen, 18/01/2019 */
+/* Style for body specifies a background color */
+body {
+  background-color: #1D1D1C;
+}
+
+/* Style to create a fluid image */
+img {
+  max-width: 100%;
+}
+
+/* Style for Mobile Layout */
+
+/* Style for container centers the page and sets the element width */
+#container {
+  width           : 100%;
+  margin-left     : auto;
+  margin-right    : auto;
+}
+/*Style for header text logo*/
+header h1 {
+  font-family: Futura;
+  color: #FFFFFF;
+  padding: 0.5em;
+}
+
+/* Style for header specifies top and bottom margins, background color, rounded border, shadow, and alignment */
+header {
+  text-align      : center;
+}
+
+/* Style for nav specifies text properties */
+nav {
+  font-family     : Georgia, "Times New Roman", serif;
+  font-size       : 1.25em;
+  font-weight     : bold;
+  text-align      : center;
+  margin-top      : -1.5em;
+}
+
+/*Style specifies padding and margins for unordered list */
+nav ul {
+  padding: 0;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+/* Style for nav li specifies the background color, rounded corners, removes bullet style, and applies
+margins and padding for list items within the navigation*/
+nav li {
+
+  background-color: #5c5c59;
+  list-style-type: none;
+  margin: 0.1em;
+  padding: 0.4em;
+}
+
+/* Style changes navigation link text color to white and removes the underline */
+nav li a {
+  color: #fff;
+  text-decoration: none;
+}
+/* Style displays the mobile class*/
+.mobile {
+  display: inline;
+}
+
+/* Style hides the desktop class */
+.desktop {
+  display: none;
+}
+
+/* Style for main specifies a block display, text properties, margins, padding, rounded border, and shadow */
+main {
+  display         : block;
+  font-family     : Futura, Verdana, Arial, sans-serif;
+  font-size       : 1em;
+  margin-top      : 0.5em;
+  padding         : 1em;
+  background-color: #1D1D1C;
+  opacity         : 0.85;
+}
+
+/* Style for anchor elements within the main element */
+main a {
+  background-color: #9D9D93;
+  border-radius   : 1em;
+  color           : #FFFFFF;
+  font-weight     : bold;
+  padding         : 0.5em;
+  text-decoration : none;
+}
+
+/* Style for footer specifies font size, text alignment, and top margin */
+footer {
+  font-size       : .70em;
+  text-align      : center;
+  margin-top      : 2em;
+  color           : #FFFFFF;
+}
+
+/* Style for anchor element within the footer element */
+footer a {
+  color           : #FFFFFF;
+  text-decoration : none;
+}
+
+/* Style hides the tablet class*/
+.tablet {
+  display: none;
+}
+
+/* Style rule specifies to not display the equip class */
+.equip {
+  display: none;
+}
+
+/**/
+aside {
+  font-style: italic;
+}
+
+/**/
+input, select, textarea {
+  display: block;
+  margin-bottom: 1em;
+}
+
+/**/
+label {
+  display: block;
+}
+
+/**/
+form ul {
+  list-style-type: none;
+}
+
+/**/
+.chkbx {
+  display: inline-block;
+}
+/*Style for Creation*/
+#creations p, h1 {
+  text-align: center;
+}
+#creations {
+  display: block;
+  background-color: #FFFFFF;
+  padding: 2em;
+}
+/* Style for mission */
+#mission {
+  display: block;
+  background-color: #FFFFFF;
+  padding: 2em;
+}
+#mission p,h1 {
+  text-align: center;
+}
+/* Style for Hiring */
+#hiring {
+  display: block;
+  background-color: #FFF;
+  padding: 2em;
+}
+/* Style Startup, Product Eng, whatwedo */
+ #whatwedo {
+  display: block;
+  background-color: #FFF;
+  padding: 2em;
+}
+/* Style for Product Engineer Block */
+ #productsengineering {
+   display: block;
+   background-color: #5c5c59;
+   padding: 2em;
+ }
+ #productsengineering p, #productsengineering h1{
+   color: #FFFFFF;
+ }
+ #productdevelopment {
+   display: block;
+   background-color: #FFFFFF;
+   padding: 2em;
+ }
+ #uiuxservices {
+   display: block;
+   background-color: #5c5c59;
+   padding: 2em;
+ }
+ #uiuxservices p, #uiuxservices h1 {
+   color: #FFFFFF;
+ }
+ #mobileenablement {
+   background-color: #FFFFFF;
+   display: block;
+   padding: 2em;
+ }
+ /*Style for form of CV*/
+ .informationhiring {
+   padding: 2em;
+   background: #8b8b8b;
+ }
+
+ @media only screen and (min-width: 660px) {
+
+   nav {
+     margin-bottom: 3.5em;
+   }
+    /* Style specifies a horizontal display for navigation links */
+  nav li {
+     display: inline;
+     background-color: inherit;
+   }
+
+   /* Style specifies clear and top margin properties for the main element */
+   main {
+     clear: left;
+     margin-top: -0.3em;
+     border-radius: 0;
+     overflow: auto;
+   }
+
+   /* Style specifies to hide the mobile class */
+   .mobile {
+     display: inline;
+   }
+
+   /* Style specifies to display the desktop class */
+   /*  Style specifies a display, float, and padding for the equip class */
+   .equip {
+     display: inline;
+     float: left;
+     margin-right: 1.5em;
+   }
+
+   /* Style specifies to display the tablet class */
+   .tablet {
+     display: block;
+     margin-top: -3em;
+     margin-bottom: -1em;
+   }
+
+   /* Style specifies a font weight and top margin for description list terms */
+   dt {
+     font-weight: bold;
+     margin-top: 0.7em;
+   }
+
+   /* Style for h1 element */
+   h1 {
+     text-align: center;
+   }
+
+   /* Style for images within the figure element */
+   figure img {
+     background-color: #1D1D1C;
+     display: inline;
+     height: 8em;
+     width: 28%;
+     margin: 1%;
+     padding: 1%;
+   }
+
+   /* Style for anchor elements within the figure element */
+   figure a {
+     background-color: transparent;
+     padding: 0;
+     text-decoration: none;
+   }
+
+   /**/
+   section {
+     padding-bottom: 3em;
+   }
+
+   /**/
+   section h1 {
+     text-align: left;
+   }
+
+   /**/
+   section a {
+     background-color: transparent;
+     color: #1D1D1C;
+     font-weight: normal;
+     padding: 0;
+     text-decoration: underline;
+   }
+
+   /**/
+   .contact {
+     background-color: transparent;
+     color: #1D1D1C;
+     padding: 0;
+     text-decoration: underline;
+   }
+
+   /**/
+   article {
+     background-color: #C1D9CA;
+     float: left;
+     margin: 0.5%;
+     padding: 0.5%;
+     text-align: center;
+     width: 31%;
+   }
+
+   /**/
+   main article img {
+     border: solid 0.1em #1D1D1C;
+     margin-left: auto;
+     margin-right: auto;
+   }
+
+   /**/
+   main article p {
+     color: #000000;
+     margin-top: 2%;
+     padding: 1%;
+     text-align: left;
+   }
+
+   /**/
+   main article ul {
+     text-align: left;
+   }
+
+   /**/
+   aside {
+     background-color: #FFFFFF;
+     border-radius: 0 5em 5em 5em;
+     box-shadow: 1em 1em 1em #4C4F4D;
+     padding: 1.5em;
+     margin: 1em;
+   }
+
+   /* Style for table element*/
+   table {
+     border: 0.1em solid #000000;
+     border-collapse: collapse;
+     margin-left: auto;
+     margin-right: auto;
+     width: 100%;
+   }
+
+   /* Style specifies border and padding for th and td elements */
+   th, td {
+     border: 0.1em solid #000000;
+     padding: 1em;
+   }
+
+   /* Style for th element */
+   th {
+     background-color: #1D1D1C;
+     color: #FFFFFF;
+   }
+
+   /*Style for caption element */
+   caption {
+     font-size: 1.5em;
+     font-weight: bold;
+     padding-bottom: 0.5em;
+   }
+
+   /**/
+   label {
+     float: left;
+     padding-right: 0.5em;
+     text-align: right;
+     width: 10em;
+   }
+
+   /**/
+   .btn {
+     margin-left: 12em;
+   }
+
+ }
+
+ /* Media query for desktop viewport targets screens with a minimum width of 830px  */
+ @media only screen and (min-width: 830px) {
+   .mobile {
+     display: none;
+   }
+   .desktop {
+     display: inline;
+   }
+   /* Style specifies a width for container */
+   #container {
+     background-color: #1D1D1C;
+     height: 100%;
+   }
+   /*Style nav ul*/
+   nav ul {
+     float: right;
+   }
+   /* Syle for nav li */
+   nav li a {
+     color: #e3e3e2;
+   }
+   /*Style for header*/
+   nav {
+     background-color: #545050;
+     width: 100%;
+     height: 2em;
+   }
+     /* */
+   /* Style to left align header and for Text header */
+   header h1 {
+     font-family: Futura;
+     text-align: left;
+     letter-spacing: -2.5px;
+     padding: 1em;
+   }
+
+   /* Style specifies border, shadow, margin, and padding for main element */
+   main {
+     background-color: #1D1D1C;
+   }
+
+   /* Style specifies left and right padding for paragraph elements within the main element */
+   main p{
+     color: #FFFFFF;
+     margin-left: auto;
+     margin-right: auto;
+     width: 90%;
+   }
+
+   /**/
+   h1 {
+     color: #FFFFFF;
+   }
+
+   /**/
+   figure img {
+     height: 15em;
+     opacity: 0.7;
+   }
+
+   /**/
+   figure img:hover {
+     opacity: 1;
+   }
+
+   /* Style specifies a gradient for the body element */
+   body {
+     background-color: #FFFFFF;
+     height: 100%;
+   }
+
+   /**/
+   footer {
+     background-color: #2A2A2A;
+     margin-top: -0.2em;
+     padding: 2em;
+   }
+
+   /**/
+   section {
+     color: #FFFFFF;
+     margin-left: 1em;
+     padding-bottom: 5em;
+   }
+
+   /**/
+   section a {
+     color: #FFFFFF;
+   }
+
+   /**/
+   section p {
+     margin-left: 0;
+   }
+
+   /**/
+   main h2 {
+     color: #FFFFFF;
+   }
+
+   /**/
+   .contact {
+     color: #FFFFFF;
+   }
+
+   /**/
+   main article h2 {
+     color: #000000;
+   }
+
+   /* Style for table element */
+   table {
+     background-color: #FFFFFF;
+     width: 85%;
+   }
+
+   /* Style for caption element */
+   caption {
+     color: #FFFFFF;
+   }
+
+   /**/
+   form {
+     background-color: #FFFFFF;
+     padding: 1em;
+   }
+
+   /**/
+   form p {
+     color: #000000;
+   }
+/* style for zig zag grid */
+.grid-container {
+display: grid;
+grid-template-columns: auto auto;
+padding: 10px;
+}
+.grid-item {
+  text-align: center;
+}
+.grid-item p, .grid-item h1 {
+  color: #1d1d1c;
+}
+.grid-item, .grid-item-2{
+  background-color: #FFF;
+}
+.grid-item-3, .grid-item-4 {
+  background-color: #000;
+}
+.grid-item-5, .grid-item-6{
+  background-color: #FFF;
+}
+.grid-item-5 h1, .grid-item-5 p {
+  color: #000;
+}
+#hiringrequirements {
+  padding-left: 2.5em;
+}
+#hiringrequirements h3, #hiringrequirements p{
+  color: #000;
+}
+/* Make sure that padding behaves as expected */
+
+
+/* Container for skill bars */
+.container {
+  width: 100%; /* Full width */
+  background-color: #ddd; /* Grey background */
+}
+
+.skills {
+  text-align: right; /* Right-align text */
+  padding: 10px; /* Add some padding */
+  color: white; /* White text color */
+}
+
+.html {width: 90%; background-color: #4CAF50;} /* Green */
+.css {width: 80%; background-color: #2196F3;} /* Blue */
+.js {width: 65%; background-color: #f44336;} /* Red */
+.php {width: 60%; background-color: #808080;} /* Dark Grey */
+
+/*Style Button*/
+
+/* Services Button */
+.buttonservices {
+  padding-left: 14em;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+.buttonservices a {
+  background-color: inherit;
+}
+#button-services  {
+  padding: 10px 20px;
+  font-size: 20px;
+  text-align: center;
+  font-family: futura;
+  border-radius: 12px;
+  background-color: white;
+  color: black;
+  border: 2px solid #4CAF50; /* Green */
+}
+#button-services:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+
+/* Hiring Button */
+.buttonhiring {
+  padding-left: 20em;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+.buttonhiring a {
+  background-color: inherit;
+}
+#button-hiring  {
+  padding: 10px 20px;
+  font-size: 20px;
+  text-align: center;
+  font-family: futura;
+  border-radius: 12px;
+  background-color: white;
+  color: black;
+  border: 2px solid #3d3d3c; /* Gray */
+}
+#button-hiring:hover {
+  background-color: #3d3d3c; /* Gray */
+  color: white;
+}
+/* Style for grid about */
+.grid-container-about {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 10px;
+                }
+
+
+
+/* Style a about website */
+
+
+/* The hero image */
+.aboutus1 {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: url("../images/aboutus-1.jpg");
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+  .text-aboutus1 {
+    padding-top: 10em;
+    padding-bottom: 10em;
+  }
+  .text-aboutus1 h1 {
+    color: #07ceca;
+    padding-left: 20em;
+  }
+  .text-aboutus1 p {
+    color: #07ceca;
+    padding-left: 45em;
+  }
+
+
+  /* The hero image */
+  .aboutus2 {
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    background-image: url("../images/aboutus-2.jpg");
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  }
+    .text-aboutus2 {
+      padding-top: 10em;
+      padding-bottom: 10em;
+    }
+    .text-aboutus2 h1 {
+      color: #07ceca;
+      padding-right: 15em;
+    }
+    .text-aboutus2 p {
+      color: #07ceca;
+      padding-left: 15em;
+    }
+
+
+
+    /* The hero image */
+    .aboutus3 {
+      /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+      background-image: url("../images/aboutus-3.jpg");
+      /* Full height */
+      height: 100%;
+
+      /* Center and scale the image nicely */
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+
+    }
+      .text-aboutus3 {
+        padding-top: 10em;
+        padding-bottom: 10em;
+      }
+      .text-aboutus3 h1 {
+        color: #07ceca;
+        padding-left: 20em;
+      }
+      .text-aboutus3 p {
+        color: #07ceca;
+        padding-left: 50em;
+      }
+
+
+      /* The hero image */
+      .aboutus4 {
+        /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+        background-image: url("../images/aboutus-4.jpg");
+        /* Full height */
+        height: 100%;
+
+        /* Center and scale the image nicely */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+      }
+        .text-aboutus4 {
+          padding-top: 10em;
+          padding-bottom: 10em;
+        }
+
+        .text-aboutus4 h1 {
+          color: #07ceca;
+          padding-right: 15em;
+        }
+        .text-aboutus4 p {
+          color: #07ceca;
+          padding-left: 15em;
+        }
+
+        /* Style for about desktop*/
+        #productdevelopment h1,#productdevelopment p {
+          color: #000;
+        }
+
+        #mobileenablement h1, #mobileenablement p{
+          color: #000;
+        }
+        /* Style images of services */
+        #aboutdesktop1
+        {
+          padding-left: 8.5em;
+        }
+        #aboutdesktop3
+        {
+          padding-left: 6em;
+        }
