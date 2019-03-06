@@ -1,4 +1,4 @@
-/* Style sheet created by: Long Nguyen, 18/01/2019 */
+/* Style sheet created by: Ta Thanh Phong, 06/03/2019 */
 /* Style for body specifies a background color */
 body {
   background-color: #1D1D1C;
@@ -747,3 +747,37 @@ padding: 10px;
         {
           padding-left: 6em;
         }
+        /* Style for banner about */
+        .aboutourteam {
+          /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+          background-image: url("../images/banneraboutus.jpg");
+          /* Full height */
+          height: 100%;
+
+          /* Center and scale the image nicely */
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+
+        }
+          .text-aboutourteam {
+            padding-top: 10em;
+            padding-bottom: 10em;
+          }
+          /* Style images banner services */
+          .servicesbanner {
+            /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+            background-image: url("../images/servicesbanner.png");
+            /* Full height */
+            height: 100%;
+
+            /* Center and scale the image nicely */
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+
+          }
+            .text-servicesbanner {
+              padding-top: 10em;
+              padding-bottom: 10em;
+            }
